@@ -1,0 +1,23 @@
+{
+  "name": "dan_electron_testing",
+  "version": "1.0.0",
+  "description": "Dan ezBIDS attempt",
+  "main": "./app/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "ezBIDS"
+  ],
+  "author": "Dan Levitas",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^21.2.3"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "drag-drop": "^7.2.0",
+    "fs-extra": "^10.1.0",
+    "open": "^8.4.0"
+  }
+}
